@@ -98,6 +98,8 @@ These dotfiles are made with love, for sure.
 
     ```shell
     paru -S nerd-fonts-jetbrains-mono ttf-font-awesome ttf-awesome-4 ttf-material-desing-icons
+    sudo pacman -S neovim
+    git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
     ```
 
