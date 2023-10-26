@@ -82,6 +82,7 @@ These dotfiles are made with love, for sure.
       sudo pacman -S kitty firefox
       ```
 <a href="https://archlinux.org/"><img alt="ArchLinux Logo" height="160" align = "left" src="https://archlinux.org/static/logos/archlinux-logo-white-scalable.847eeafd581c.svg"></a>
+<br>
 2.  Install needed fonts
 
     You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
