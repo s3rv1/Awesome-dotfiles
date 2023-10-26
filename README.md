@@ -131,7 +131,7 @@ These dotfiles are made with love, for sure.
 
     > Recargar ' ctrl+win+r '
 
-4.  Configure ZSH
+4.  Configure ZSH + PowerLevel10K + lsd + bat + scrub
     ```shell
       sudo pacman -S zsh
       sudo su
@@ -149,7 +149,16 @@ These dotfiles are made with love, for sure.
       exit
       cd /usr/share/zsh-sudo
       sudo pacman -S wget
-      wget
+      wget https://raw.githubusercontent.com/s3rv1/Awesome-dotfiles/main/dotfiles/sudo-plugin/sudo.plugin.zsh
+      sudo pacman -S lsd bat 
+      paru -S scrub
+      cd
+      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+      zsh #configrar
+      
+
+
+
 
 
 
