@@ -130,7 +130,16 @@ These dotfiles are made with love, for sure.
 
     > Recargar ' ctrl+win+r '
 
-4.  Configure stuff
+    
+
+4.  Configure ZSH
+    ```shell
+      sudo pacman -S zsh
+      sudo su
+      usermod --shell /usr/bin/zsh  #usuario
+    ```
+
+5.  Configure stuff
 
     The relevant files are inside your `~/.config/awesome` directory.
 
@@ -141,7 +150,7 @@ These dotfiles are made with love, for sure.
 
       Note: For the weather widgets to work, you will also need to create an account on [openweathermap](https://openweathermap.org), get your key, look for your city ID, and set `openweathermap_key` and `openweathermap_city_id` accordingly.
 
-5.  Lastly, log out from your current desktop session and log in into AwesomeWM.
+6.  Lastly, log out from your current desktop session and log in into AwesomeWM.
 
 </details>
 
