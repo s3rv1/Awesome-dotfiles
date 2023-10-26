@@ -52,9 +52,10 @@ These dotfiles are made with love, for sure.
 
 1.  Install dependencies and enable services
 
+    <a href="https://archlinux.org/"><img alt="ArchLinux Logo" height="160" align = "left" src="https://archlinux.org/static/logos/archlinux-logo-white-scalable.847eeafd581c.svg"></a>
+    
     - Dependencies
-      <a href="https://archlinux.org/"><img alt="ArchLinux Logo" height="160" align = "left" src="https://archlinux.org/static/logos/archlinux-logo-white-scalable.847eeafd581c.svg"></a>
-
+    
     * **Arch Linux** (and all Arch-based distributions)
 
           *Assuming your AUR helper is* `paru`
