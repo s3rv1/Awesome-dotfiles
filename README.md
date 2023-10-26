@@ -131,7 +131,7 @@ These dotfiles are made with love, for sure.
 
     > Recargar ' ctrl+win+r '
 
-4.  Configure ZSH + PowerLevel10K + lsd + bat + scrub
+4.  Configure ZSH + PowerLevel10K + lsd + bat + scrub +fzf
     ```shell
       sudo pacman -S zsh
       sudo su
@@ -153,14 +153,18 @@ These dotfiles are made with love, for sure.
       sudo pacman -S lsd bat 
       paru -S scrub
       cd
-      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k  #gracias a romkatv
       zsh #configrar
-      
-
-
-
-
-
+      sudo su
+      ln -s -f /home/s3rv1/.zshrc /root/z.zshrc  #cambiar el usuario
+      usermod --shell /usr/bin/zsh root #cerrar el terminal no configurar el del root
+      git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+      exit
+      git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+      ~/.fzf/install
+      sudo su
+      git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf  #gracias a junegunn
+      ~/.fzf/install
 
     ```
     > Teclado a Espa;ol
