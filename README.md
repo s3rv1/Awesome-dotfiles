@@ -108,16 +108,17 @@ These dotfiles are made with love, for sure.
     > Clone this repository
 
     ```shell
-          mkdir /Desktop/repos
-    cd $!
-    git clone https://github.com/s3rv1/Awesome-dotfiles.git
-    cd Awesome-dotfiles/dotfiles
+      mkdir /Desktop/repos
+      cd $!
+      git clone https://github.com/s3rv1/Awesome-dotfiles.git
+      cd Awesome-dotfiles/dotfiles
     ```
 
     > Copy config and binaries files
 
     ```shell
     cp -r config/* ~/.config/
+    mkdir ~/.local/bin
     cp -r bin/* ~/.local/bin/
     cp -r misc/. ~/
     ```
@@ -125,19 +126,38 @@ These dotfiles are made with love, for sure.
     > Feh installer
 
     ```shell
-    sudo pacman -S feh
+    sudo pacman -S feh 
     ```
 
     > Recargar ' ctrl+win+r '
-
-    
 
 4.  Configure ZSH
     ```shell
       sudo pacman -S zsh
       sudo su
-      usermod --shell /usr/bin/zsh  #usuario
+      usermod --shell /usr/bin/zsh s3rv1 #poner su usuario
+      exit
+      cd Awesome-dotfiles/dotfiles/
+      cp -r zsh/. ~/
+      paru -S zsh-syntax-highlighting zsh-autosuggestions
+      sudo pacman -S locate
+      sudo updatedb
+      cd /usr/share
+      sudo su
+      mkdir zsh-sudo
+      chown s3rv1:s3rv1 zsh-sudo  #Asignamos como propietario y como grupo al usuario 
+      exit
+      cd /usr/share/zsh-sudo
+      sudo pacman -S wget
+      wget
+
+
+
     ```
+    > Teclado a Espa;ol
+      ```shell
+         sudo localectl set-x11-keymap es
+      ```
 
 5.  Configure stuff
 
