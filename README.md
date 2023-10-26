@@ -51,9 +51,6 @@ These dotfiles are made with love, for sure.
 > This is step-by-step how to install these dotfiles. Just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM).
 
 1.  Install dependencies and enable services
-
-<a href="https://archlinux.org/"><img alt="ArchLinux Logo" height="160" align = "left" src="https://archlinux.org/static/logos/archlinux-logo-white-scalable.847eeafd581c.svg"></a>
- <br>
     - Dependencies
     
     * **Arch Linux** (and all Arch-based distributions)
@@ -84,7 +81,7 @@ These dotfiles are made with love, for sure.
       ```shell
       sudo pacman -S kitty firefox
       ```
-
+<a href="https://archlinux.org/"><img alt="ArchLinux Logo" height="160" align = "left" src="https://archlinux.org/static/logos/archlinux-logo-white-scalable.847eeafd581c.svg"></a>
 2.  Install needed fonts
 
     You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
